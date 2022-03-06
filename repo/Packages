@@ -6,5 +6,5 @@ Maintainer: EvNr
 Author: EvNr
 Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000)
-Version: 1.0
+Version: 2.0
 Installed-Size: 1076
