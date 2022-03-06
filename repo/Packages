@@ -1,14 +1,10 @@
-Package: org.mxm.sc
-Version: 1.0
-Section: Tweaks
-Maintainer: EvNr <evnr@icloud.com>
-Depends: mobilesubstrate, preferenceloader
-Provides: org.mxm.snap
-Architecture: iphoneos-arm
-Filename: Files/MxM/org.mxm.sc_1.0.0_iphoneos-arm.deb
-Size: 6040
-Installed-Size: 40
-MD5sum: ced0d3a70d452b19db8d6860b14ddf39
-Description: MxM For SC
+Package: com.evnr.mxm
 Name: M x M
-Author: EvNr <evnr@icloud.com>
+Architecture: iphoneos-arm
+Description: M x M for SC
+Maintainer: EvNr
+Author: EvNr
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Version: 1.0
+Installed-Size: 1076
