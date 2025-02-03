@@ -1,14 +1,18 @@
 using System;
+using System.Windows.Forms; // Add this if you need MessageBox.Show()
 
-public class RemoteClass
+namespace RemoteNamespace // 🔹 Ensure it has a namespace
 {
-    public string GetMessage()
+    public class RemoteClass
     {
-        return "Hello from the cloud!";
-    }
+        public string GetMessage()
+        {
+            return "Hello from the cloud!";
+        }
 
-    public int AddNumbers(int a, int b)
-    {
-        return a + b;
+        public int AddNumbers(int a, int b)
+        {
+            return a + b;
+        }
     }
 }
